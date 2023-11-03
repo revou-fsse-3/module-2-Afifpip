@@ -1,1 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/DUj7T_Sj)
+# Sample Website for Week 3 - Nike, Just Duit
+
+Assignment Example for Week 3 - Making a landing web page
+
+- Applying custom font using @font-face
+- Applying text-shadow
+- Applying 1 responsive background image
+- Applying 1 responsive image
+- Creating simple animation
+
+**Result Sample Website** 
+(https://nike-justduit.netlify.app)
