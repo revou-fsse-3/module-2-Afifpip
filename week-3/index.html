@@ -32,9 +32,7 @@
   </nav>
 
   <header>
-    <img id="shoe-head"
-      src="https://static.nike.com/a/images/f_auto,cs_srgb/w_1920,c_limit/a6028f4f-7859-4a49-9fcd-91614e844bb2/nike-just-do-it.jpg"
-      alt="nike shoe">
+
   </header>
 
   <main>
@@ -126,6 +124,51 @@
       </div>
     </section>
   </main>
+
+  <footer>
+    <section id="form-section">
+      <h2>Join our Nike fanclub!</h2>
+      <form action="#">
+        <fieldset>
+          <legend>Personal Data:</legend>
+          <div>
+            <label for="fullName">Full Name:</label>
+            <input id="fullName" type="text" required />
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" required />
+          </div>
+
+          <div>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="trip-start" value="2018-07-22" />
+          </div>
+
+          <div>
+            <p>Are you living in Indonesia?</p>
+            <input type="radio" id="yes" name="isIndonesia" value="Male" />
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="isIndonesia" value="Female" />
+            <label for="no">No</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Additional information:</legend>
+          <div>
+            <p>Why you chose Nike!</p>
+            <textarea rows="3"></textarea>
+          </div>
+          <div>
+            <p>Upload your favorite nike shoe here:</p>
+            <input type="file" id="photo" name="myNikeShoe" required accept="image/png, image/jpeg" />
+          </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </footer>
 
 </body>
 
