@@ -1,3 +1,5 @@
+![Header](readme-img/Nike.jpg)
+
 # Sample Website for Week 3 - Nike, Just Duit
 
 Assignment Example for Week 3 - Making a landing web page
